@@ -1,9 +1,9 @@
 bioguide: N000032
 contact_form:
   method: POST
-  action: http://www.billnelson.senate.gov/contact/email.cfm
+  action: http://www.billnelson.senate.gov/contact-bill
   steps:
-    - visit: http://www.billnelson.senate.gov/contact/email.cfm
+    - visit: http://www.billnelson.senate.gov/contact-bill
     - select:
       - name: Re
         selector: "select[name='Re']"
